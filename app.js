@@ -13,7 +13,6 @@ var app = express();
 
 const mongoose = require('mongoose');
 mongoose.set('strictQuery', false);
-// const mongoDB = 'mongodb+srv://juliaSh:E.FUkG.SjNJ2W.t@base.x9txail.mongodb.net/local_library?retryWrites=true&w=majority';
 main().catch(err => console.log(err));
 async function main() {
   await mongoose.connect(process.env.MONGODB_URI);
