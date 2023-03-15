@@ -1,0 +1,1 @@
+const connectString = 'mongodb+srv://juliaSh:E.FUkG.SjNJ2W.t@base.x9txail.mongodb.net/local_library?retryWrites=true&w=majority'
